@@ -1,0 +1,36 @@
+url: "https://www.arjayasentosainvestama.com"
+baseurl: ""
+
+# Site settings
+title: Arjaya Sentosa Investama
+email: hello@arjayasentosainvestama.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+# Team names, titles and social links
+people:
+- name: Quality-Driven Construction 
+  pic: 1
+  position: We emphasize safety, material integrity, and workmanship. 
+- name: Transparent & Fair Process 
+  pic: 2
+  position: Clear estimates, open progress reporting, no hidden costs. 
+- name: Trusted Across Communities
+  pic: 3
+  position: Projects designed to balance livability and long-term value. 
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md

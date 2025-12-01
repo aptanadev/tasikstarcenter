@@ -1,0 +1,49 @@
+version: "3.8"
+
+services:
+  agency:
+    image: jekyll/jekyll:latest
+    # Menambahkan bundle install untuk memastikan gem terinstal di dalam kontainer
+    command: sh -c "bundle install && jekyll serve --watch --host 0.0.0.0 --force_polling"
+    working_dir: /srv/jekyll
+    volumes:
+      - ./agency-theme:/srv/jekyll
+      # Mencegah volume mounting menimpa instalasi gem (penting!)
+      - /usr/local/bundle
+    ports:
+      - "4000:4000"
+    environment:
+      - JEKYLL_ENV=development
+      # Menentukan user yang menjalankan (sudah default, tapi memastikan)
+      - BUNDLE_FORCE_RUBY_PLATFORM=1 # Optional: Jika ada error nokogiri atau platform
+      
+  dbrowns:
+    image: jekyll/jekyll:latest
+    command: sh -c "bundle install && jekyll serve --watch --host 0.0.0.0 --force_polling"
+    working_dir: /srv/jekyll
+    volumes:
+      - ./dbrowns:/srv/jekyll
+      - /usr/local/bundle
+    ports:
+      - "4001:4000"
+    environment:
+      - JEKYLL_ENV=development
+      - BUNDLE_FORCE_RUBY_PLATFORM=1
+  
+  dcrowns:
+    image: jekyll/jekyll:latest
+    # Menambahkan bundle install untuk memastikan gem terinstal di dalam kontainer
+    command: sh -c "bundle install && jekyll serve --watch --host 0.0.0.0 --force_polling"
+    working_dir: /srv/jekyll
+    volumes:
+      - ./dcrowns:/srv/jekyll
+      # Mencegah volume mounting menimpa instalasi gem (penting!)
+      - /usr/local/bundle
+    ports:
+      - "4002:4000"
+    environment:
+      - JEKYLL_ENV=development
+      # Menentukan user yang menjalankan (sudah default, tapi memastikan)
+      - BUNDLE_FORCE_RUBY_PLATFORM=1 # Optional: Jika ada error nokogiri atau platform
+  
+  
