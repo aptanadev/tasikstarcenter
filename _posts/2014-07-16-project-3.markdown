@@ -1,11 +1,11 @@
 ---
-title: Arjaya Starter Homes
+title: Pengadaan
 layout: default
 modal-id: 3
 date: 2014-07-16
 img: Porto3.jpg
 thumbnail: Porto3.jpg
 alt: image-alt
-description: Affordable housing initiative with bank-partnered mortgage schemes.
+description: Bekerja sama dengan berbagai instansi baik luar atau berada di kota Sumedang. Mulai dari pengadaan AC di Gedung Creative Center Sumedang, pengadaan elektronik di RS Pakuwon Sumedang, pengadaan elektronik di beberapa sekolah untuk mendukung proses kegiatan belajar mengajar, serta UMKM yang sedang berkembang di Kota Sumedang. 
 
 ---
