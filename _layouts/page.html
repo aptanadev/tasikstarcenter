@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body id="page-top" class="index policy-page">
+
+  {% include navbar.html %}
+
+  {{ content }}
+
+  {% include footer.html %}
+  {% include js.html %}
+
+  <style>
+    /* Force navbar to always be in shrink state for policy pages */
+    body.policy-page .navbar-default {
+      padding: 10px 0 !important;
+      background-color: #222 !important;
+    }
+
+    body.policy-page .navbar-default .navbar-brand {
+      font-size: 1.5em !important;
+    }
+  </style>
+
+</body>
+
+</html>

@@ -8,22 +8,23 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Team names, titles and social links
 people:
-- name: Rose Azizah 
-  pic: 1
-  position: Banyak barang keluaran baru, harga juga bersaing, bisa nego, pelayanan baik, ada free ice cream sepuasnya, ada kopi, dan macam minuman lainnya free untuk konsumen. 
-- name: Odin Nuradin 
-  pic: 2
-  position: Udah beberapa kali belanja di toko tasik star center pelayanannya ramah sekali banyak hadiahnya juga jadi kita setiap pembelian ada poin juga yang bisa nanti dituker sama hadiah. 
-- name: Destma Shinta Shaumi
-  pic: 3
-  position: Toko ternyaman lengkap dan pelayanan cepat dan ramah tempatnya bersih nyaman pokonya belanja disini jadi kalap pengen borong semua, terimakasih sukses terus Tasik Star. 
+  - name: Rose Azizah
+    pic: 1
+    position: Banyak barang keluaran baru, harga juga bersaing, bisa nego, pelayanan baik, ada free ice cream sepuasnya, ada kopi, dan macam minuman lainnya free untuk konsumen.
+  - name: Odin Nuradin
+    pic: 2
+    position: Udah beberapa kali belanja di toko tasik star center pelayanannya ramah sekali banyak hadiahnya juga jadi kita setiap pembelian ada poin juga yang bisa nanti dituker sama hadiah.
+  - name: Destma Shinta Shaumi
+    pic: 3
+    position: Toko ternyaman lengkap dan pelayanan cepat dan ramah tempatnya bersih nyaman pokonya belanja disini jadi kalap pengen borong semua, terimakasih sukses terus Tasik Star.
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Tasik Star Center Electronics
+  - line: Tasikmalaya, West Java, Indonesia
+  - line: "Phone: +62 xxx xxxx xxxx"
 
 # Build settings
 markdown: kramdown

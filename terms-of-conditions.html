@@ -1,0 +1,24 @@
+---
+layout: page
+title: Terms of Conditions
+permalink: /terms-of-conditions/
+---
+
+<div class="policy-container">
+  <div class="policy-wrapper">
+    <div class="policy-header">
+      <h1>Terms of Conditions</h1>
+      <p class="text-muted">Last updated: December 9, 2025</p>
+    </div>
+
+    <div class="policy-content">
+      {% assign terms_post = site.posts | where: "categories", "policy" | where: "title", "Terms of Conditions" | first
+      %}
+      {% if terms_post %}
+      {{ terms_post.content }}
+
+      <a href="{{ site.baseurl }}/" class="back-link">← Back to Home</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
